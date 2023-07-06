@@ -9,6 +9,7 @@ public class Main {
          ChessMatch cm = new ChessMatch();
          UI.printBoard(cm.getPieces());
          
+         
     }
 }
 

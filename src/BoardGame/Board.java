@@ -49,7 +49,7 @@ public class Board {
     }
 
     public boolean positionExists(Position position){
-        return positionExists(position);
+        return positionExists(position.getRow(), position.getColumn());
     }
 
     public boolean positionExists(int row, int column){
